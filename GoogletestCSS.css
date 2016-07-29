@@ -1,0 +1,115 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#container{
+	min-height: 100%;
+	position: relative;
+}
+
+#header{
+	padding: 15px;
+}
+
+#body{
+	padding: 10px;
+	padding-bottom: 40px;
+}
+
+#footer{
+	background-color: #efefef;
+	color: #8a8a8a;
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+}
+
+.Image{
+	height: 50px;
+	width: 50px;
+	padding: 50px;
+	}
+
+#icon{
+	height: 20px;
+	width: 21px;
+}
+
+li a:hover{
+	background-color: #555;
+    color: white
+}
+
+.TOPMENU{
+	display: inline-block;
+	font-family: verdana;
+	font-size: 12px;
+	float: right;
+	position: static;
+	margin: 0px 2px 0px 15px;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#image{
+	height: 92px;
+	width: 270px;
+	display: inline-block;
+	margin: 105px 100px 100px 445px;
+	
+}
+
+#QUERY{
+	border: 1px solid gray;
+	height: 40px;
+	width: 575px;
+	margin: 130px 100px 25px 355px;
+	font-size: 20px;
+}
+
+#search{
+	margin: 0 0 0 495px;
+}
+
+#lucky{
+	margin: 0 0 0 5px;
+}
+
+.button{
+	display: inline-block;
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #efefef;
+	padding: 12px 12px 12px 12px;
+	color: #8a8a8a;
+
+}
+
+.lowLEFTMENU{
+	display: inline-block;
+	font-family: arial;
+	font-size: 14px;
+	margin: 10px 1px 0px 20px;
+	}
+
+
+.lowRIGHTMENU{
+	display: inline-block;
+	font-family: arial;
+	font-size: 14px;
+	float: right;
+	position: static;
+	margin: 10px 20px 0px 1px;
+}
+
